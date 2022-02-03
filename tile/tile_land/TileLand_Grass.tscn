@@ -1,0 +1,26 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://assets/tile_land/tileland_grass.png" type="Texture" id=1]
+[ext_resource path="res://tile/tile_land/TileLand_Grass.gd" type="Script" id=2]
+
+[node name="Tile" type="Sprite"]
+texture = ExtResource( 1 )
+script = ExtResource( 2 )
+
+[node name="TileSurfaceInput" type="Button" parent="."]
+modulate = Color( 1, 1, 1, 0 )
+self_modulate = Color( 1, 1, 1, 0 )
+show_behind_parent = true
+anchor_left = 0.5
+anchor_top = 0.25
+anchor_right = 0.5
+anchor_bottom = 0.25
+margin_left = -48.0
+margin_top = -42.0
+margin_right = -16.0
+margin_bottom = -22.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[connection signal="pressed" from="TileSurfaceInput" to="." method="_on_TileSurfaceInput_pressed"]
