@@ -7,7 +7,7 @@
 texture = ExtResource( 1 )
 script = ExtResource( 2 )
 
-[node name="TileSurfaceInput" type="Button" parent="."]
+[node name="TileSurfaceInput0" type="Button" parent="."]
 modulate = Color( 1, 1, 1, 0 )
 self_modulate = Color( 1, 1, 1, 0 )
 show_behind_parent = true
@@ -15,12 +15,107 @@ anchor_left = 0.5
 anchor_top = 0.25
 anchor_right = 0.5
 anchor_bottom = 0.25
-margin_left = -48.0
+margin_left = -45.0
 margin_top = -42.0
-margin_right = -16.0
+margin_right = -20.0
 margin_bottom = -22.0
 __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[connection signal="pressed" from="TileSurfaceInput" to="." method="_on_TileSurfaceInput_pressed"]
+[node name="TileSurfaceInput1" type="Button" parent="."]
+modulate = Color( 1, 1, 1, 0 )
+self_modulate = Color( 1, 1, 1, 0 )
+show_behind_parent = true
+anchor_left = 0.5
+anchor_top = 0.25
+anchor_right = 0.5
+anchor_bottom = 0.25
+margin_left = -4.0
+margin_top = -35.0
+margin_right = 8.0
+margin_bottom = 77.0
+rect_rotation = 90.0
+rect_scale = Vector2( 0.5, 0.5 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="TileSurfaceInput2" type="Button" parent="."]
+modulate = Color( 1, 1, 1, 0 )
+self_modulate = Color( 1, 1, 1, 0 )
+show_behind_parent = true
+anchor_left = 0.5
+anchor_top = 0.25
+anchor_right = 0.5
+anchor_bottom = 0.25
+margin_left = -10.0
+margin_top = -38.0
+margin_right = 14.0
+margin_bottom = 49.0
+rect_rotation = 90.0
+rect_scale = Vector2( 0.5, 0.5 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="TileSurfaceInput3" type="Button" parent="."]
+modulate = Color( 1, 1, 1, 0 )
+self_modulate = Color( 1, 1, 1, 0 )
+show_behind_parent = true
+anchor_left = 0.5
+anchor_top = 0.25
+anchor_right = 0.5
+anchor_bottom = 0.25
+margin_left = -16.0
+margin_top = -41.0
+margin_right = 20.0
+margin_bottom = 22.0
+rect_rotation = 90.0
+rect_scale = Vector2( 0.5, 0.5 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="TileSurfaceInput4" type="Button" parent="."]
+modulate = Color( 1, 1, 1, 0 )
+self_modulate = Color( 1, 1, 1, 0 )
+show_behind_parent = true
+anchor_left = 0.5
+anchor_top = 0.25
+anchor_right = 0.5
+anchor_bottom = 0.25
+margin_left = -22.0
+margin_top = -44.0
+margin_right = 26.0
+margin_bottom = -4.0
+rect_rotation = 90.0
+rect_scale = Vector2( 0.5, 0.5 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="TileSurfaceInput5" type="Button" parent="."]
+modulate = Color( 1, 1, 1, 0 )
+self_modulate = Color( 1, 1, 1, 0 )
+show_behind_parent = true
+anchor_left = 0.503
+anchor_top = 0.25
+anchor_right = 0.503
+anchor_bottom = 0.25
+margin_left = -28.192
+margin_top = -47.0
+margin_right = 31.808
+margin_bottom = -9.0
+rect_rotation = 90.0
+rect_scale = Vector2( 0.5, 0.2 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[connection signal="pressed" from="TileSurfaceInput0" to="." method="_on_TileSurfaceInput_pressed"]
+[connection signal="pressed" from="TileSurfaceInput1" to="." method="_on_TileSurfaceInput_pressed"]
+[connection signal="pressed" from="TileSurfaceInput2" to="." method="_on_TileSurfaceInput_pressed"]
+[connection signal="pressed" from="TileSurfaceInput3" to="." method="_on_TileSurfaceInput_pressed"]
+[connection signal="pressed" from="TileSurfaceInput4" to="." method="_on_TileSurfaceInput_pressed"]
+[connection signal="pressed" from="TileSurfaceInput5" to="." method="_on_TileSurfaceInput_pressed"]
