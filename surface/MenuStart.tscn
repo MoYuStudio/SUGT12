@@ -10,8 +10,8 @@ margin_left = 94.0
 margin_top = 70.0
 margin_right = 283.0
 margin_bottom = 137.0
-text = "SUGT13
-Tinyland Godot Vision"
+text = "SUGT13   Tinyland
+Godot Vision"
 readonly = true
 __meta__ = {
 "_edit_use_anchors_": false

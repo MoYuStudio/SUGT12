@@ -1,0 +1,24 @@
+[gd_scene load_steps=5 format=2]
+
+[ext_resource path="res://assets/tile_building/tilebuilding0.png" type="Texture" id=1]
+[ext_resource path="res://assets/tile_land/tileland_mask.png" type="BitMap" id=2]
+[ext_resource path="res://assets/tile_land/tileland_air.png" type="Texture" id=3]
+[ext_resource path="res://tile/tile_land/source/TileLand_Air.gd" type="Script" id=4]
+
+[node name="Tile" type="Sprite"]
+position = Vector2( 32, 32 )
+texture = ExtResource( 3 )
+script = ExtResource( 4 )
+
+[node name="Choose" type="TextureButton" parent="."]
+margin_left = -32.0
+margin_top = -32.0
+margin_right = 32.0
+margin_bottom = 32.0
+texture_hover = ExtResource( 1 )
+texture_click_mask = ExtResource( 2 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[connection signal="pressed" from="Choose" to="." method="_on_Choose_pressed"]

@@ -10,9 +10,13 @@ config_version=4
 
 [application]
 
-config/name="SUGT13"
+config/name="SUGT12 TinyLand"
 run/main_scene="res://surface/MenuStart.tscn"
 config/icon="res://icon.png"
+
+[autoload]
+
+Global="*res://global/global.gd"
 
 [physics]
 

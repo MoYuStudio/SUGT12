@@ -6,13 +6,12 @@ func _ready():
 	pass
 	
 func _physics_process(delta):
-	#bit_button.create_from_image_alpha(button_alp)
 	pass
 
 func _on_Choose_pressed():
 	var tile = Sprite.new()
 	tile.set_texture(image)
 	tile.set_offset(Vector2(0,-16))
-	tile.set_z_index(10)
+	tile.set_z_index(1)
 	add_child(tile)
 	print('click')
